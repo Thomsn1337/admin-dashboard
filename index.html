@@ -10,11 +10,14 @@
 
 <body>
     <div class="sidebar">
-        <h1>Logo</h1>
-        <figure>
-            <figcaption>Overview</figcaption>
+        <div class="logo">
+            <img src="img/logo.png" alt="Checkbox">
+            <h1>Tasker</h1>
+        </div>
+        <figure class="menu">
+            <figcaption>OVERVIEW</figcaption>
             <ul>
-                <li>
+                <li class="active">
                     <ion-icon name="home-outline"></ion-icon>
                     Dashboard
                 </li>
@@ -40,8 +43,8 @@
                 </li>
             </ul>
         </figure>
-        <figure>
-            <figcaption>Setup</figcaption>
+        <figure class="settings">
+            <figcaption>SETUP</figcaption>
             <ul>
                 <li>
                     <ion-icon name="settings-outline"></ion-icon>
@@ -58,8 +61,8 @@
             </ul>
         </figure>
     </div>
-    <div class="header"></div>
-    <div class="content"></div>
+    <header></header>
+    <main></main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
