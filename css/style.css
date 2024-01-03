@@ -22,10 +22,10 @@ body {
     grid-template-columns: minmax(200px, 15vw) 6fr;
     grid-template-rows: 60px 1fr;
     min-height: 100vh;
-    user-select: none;
 }
 
 .sidebar {
+    user-select: none;
     position: fixed;
     min-width: 200px;
     width: 15vw;
@@ -152,6 +152,7 @@ header .message {
     margin-right: 20px;
     cursor: pointer;
     border-radius: 10px;
+    user-select: none;
 }
 
 .profile:hover {
